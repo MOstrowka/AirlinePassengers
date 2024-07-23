@@ -3,7 +3,6 @@
 ![image](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/cd/51/f6/lot-polish-airlines.jpg?w=1200&h=-1&s=1)
 
 ## Overview
-'
 This repository contains my project for analyzing and predicting airline passenger satisfaction. I used a dataset from kaggle "https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction", which includes various features related to passengers' travel experiences.
 
 ### Dataset
