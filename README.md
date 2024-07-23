@@ -3,23 +3,35 @@
 ![image](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/cd/51/f6/lot-polish-airlines.jpg?w=1200&h=-1&s=1)
 
 ## Overview
-
-This repository contains my project for analyzing and predicting airline passenger satisfaction. I used a dataset from an airline passenger satisfaction survey, which includes various features related to passengers' travel experiences.
+'
+This repository contains my project for analyzing and predicting airline passenger satisfaction. I used a dataset from kaggle "https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction", which includes various features related to passengers' travel experiences.
 
 ### Dataset
 
-The dataset includes the following selected features:
-- Online boarding
-- Class
+The dataset includes the following features:
+- Gender
+- Customer Type
+- Age
 - Type of Travel
-- Inflight entertainment
-- Seat comfort
-- On-board service
-- Leg room service
-- Cleanliness
+- Class
 - Flight Distance
 - Inflight wifi service
-- Customer Type
+- Departure/Arrival time convenient
+- Ease of Online booking
+- Gate location
+- Food and drink
+- Online boarding
+- Seat comfort
+- Inflight entertainment
+- On-board service
+- Leg room service
+- Baggage handling
+- Checkin service
+- Inflight service
+- Cleanliness
+- Departure Delay in Minutes
+- Arrival Delay in Minutes
+- Satisfaction (target variable)
 
 ### Exploratory Data Analysis (EDA)
 
@@ -29,6 +41,7 @@ During EDA, I:
 - Visualized the distribution of various features.
 - Created correlation matrices to understand relationships between features.
 - Visualized the impact of different features on passenger satisfaction using histograms and boxplots.
+- Selecting the most important features to further model training.
 
 ### Models Used
 
